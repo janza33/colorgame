@@ -1,0 +1,72 @@
+body {
+ background-color: #232323;
+ margin: 0;
+ font-family: "Avenir","Montserrat";
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%; /* round corners */
+    transition: background 0.5s; /* fade out of clicked squares */
+    -webkit-transition: background 0.5s; /* makes transition friendly for browser safari */
+    -moz-transition: background 0.5s; /* makes transition friendly for browser firefox */
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s; /* hover fade in all button color changes takes 2 seconds */
+    -webkit-transition: background 0.5s; /* makes transition friendly for browser safari */
+    -moz-transition: background 0.5s; /* makes transition friendly for browser firefox */
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
